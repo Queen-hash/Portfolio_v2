@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 
 // 1. Import Icon Sosmed
 import { Mail } from 'lucide-react';
