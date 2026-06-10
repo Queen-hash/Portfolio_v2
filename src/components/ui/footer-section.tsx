@@ -358,6 +358,7 @@ export function FooterSection() {
           <MagneticButton
             as="button"
             onClick={scrollToTop}
+            aria-label="Kembali ke atas"
             className="w-12 h-12 rounded-full border border-white/10 bg-white/3 backdrop-blur-md flex items-center justify-center text-white/50 hover:text-purple-500 hover:bg-purple-500/30 transition-colors group order-3"
           >
             <svg className="w-5 h-5 transform group-hover:-translate-y-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -84,7 +84,7 @@ const NavLink = ({ href, children }: { href: string; children: React.ReactNode }
 );
 
 const SocialIcon = ({ href, icon: Icon }: { href: string; icon: React.ElementType }) => (
-  <a href={href} target="_blank" rel="noopener noreferrer" className="text-foreground/60 transition-colors hover:text-foreground">
+  <a href={href} target="_blank" aria-label="Kunjungi profil sosial media saya" rel="noopener noreferrer" className="text-foreground/60 transition-colors hover:text-foreground">
     <Icon className="h-5 w-5" />
   </a>
 );

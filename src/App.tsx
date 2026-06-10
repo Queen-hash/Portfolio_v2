@@ -33,27 +33,32 @@ const App = () => {
   return (
     <div className="dark min-h-screen bg-background text-foreground">
 
-      {/* --- BLOK 1: HERO SECTION --- */}
-      <MinimalistHero
-        logoSrc="/favicon.png" 
-        logoText="dy.dev"
-        navLinks={navLinks}
-        mainText="Front-end developer blending engineering logic with modern design. I build fast, scalable, and pixel-perfect web applications."
-        readMoreLink="#about"
-        imageSrc="/foto1.PNG"
-        imageAlt="Munawardy DY"
-        overlayText={{
-          part1: 'code &',
-          part2: 'craft.',
-        }}
-        socialLinks={socialLinks}
-        locationText="Indonesia"
-      />
+      <main> 
+        
+        {/* --- BLOK 1: HERO SECTION --- */}
+        <MinimalistHero
+          logoSrc="/favicon.png" 
+          logoText="dy.dev"
+          navLinks={navLinks}
+          mainText="Front-end developer blending engineering logic with modern design. I build fast, scalable, and pixel-perfect web applications."
+          readMoreLink="#about"
+          imageSrc="/foto1.PNG"
+          imageAlt="Munawardy DY"
+          overlayText={{
+            part1: 'code &',
+            part2: 'craft.',
+          }}
+          socialLinks={socialLinks}
+          locationText="Indonesia"
+        />
 
-      <StatsBento />
-      <ExperienceTimeline />
-      <ProjectsSection/>
-      <ServicesSection />
+        <StatsBento />
+        <ExperienceTimeline />
+        <ProjectsSection/>
+        <ServicesSection />
+        
+      </main> 
+
       <FooterSection />
     </div>
   );
