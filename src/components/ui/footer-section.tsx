@@ -5,7 +5,7 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { cn } from "@/lib/utils";
-import { ArrowUpRight, Mail } from "lucide-react";
+import { ArrowUpRight, Mail, Download } from "lucide-react";
 
 // Register GSAP ScrollTrigger
 if (typeof window !== "undefined") {
@@ -307,6 +307,17 @@ export function FooterSection() {
               <ArrowUpRight className="w-5 h-5 text-white/50 group-hover:text-white transition-colors" />
               Hire on LinkedIn
             </MagneticButton>
+
+            <MagneticButton 
+              as="a" 
+              href="/MunawardyCV - Front end Developer.pdf" 
+              download="MunawardyCV - Front end Developer.pdf"
+              className="group px-8 py-4 md:px-10 md:py-5 rounded-full border border-white/10 bg-white/3 backdrop-blur-xl hover:bg-white/8 hover:border-white/20 transition-all duration-30 flex items-center gap-3 text-white/90 hover:text-white font-medium text-sm md:text-base shadow-[0_0_20px_rgba(0,0,0,0.5)]"
+            >
+              <Download className="w-5 h-5 text-white/50 group-hover:text-white transition-colors" />
+              Download CV
+            </MagneticButton>
+
           </div>
 
           {/* Tombol Kapsul Sekunder (Baris 2) */}
