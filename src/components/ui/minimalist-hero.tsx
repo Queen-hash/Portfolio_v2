@@ -342,7 +342,7 @@ export const MinimalistHero = ({
               className="w-full text-center space-y-4 pb-4 flex-none"
             >
               <div className="flex flex-col items-center gap-2 px-4">
-                <a href="#projects" className="w-full px-6 py-2 bg-black-900 hover:bg-purple-600 text-white text-sm rounded-full font-medium transition-all shadow-[0_0_15px_rgba(147,51,234,0.3)] hover:shadow-[0_0_25px_rgba(147,51,234,0.5)] text-center">
+                <a href="#projects" className="w-full px-6 py-2 bg-black-900 hover:bg-purple-600 text-white text-sm rounded-full font-medium transition-all shadow-[0_0_15px_rgba(147,51,234,0.2)] hover:shadow-[0_0_25px_rgba(147,51,234,0.2)] text-center">
                   See project
                 </a>
                 <a href="#contact" className="w-full relative inline-flex items-center text-sm font-medium rounded-full h-10 p-1 ps-6 pe-12 group transition-all duration-500 overflow-hidden cursor-pointer bg-foreground/10 text-foreground border border-foreground/30 hover:bg-purple-600 hover:text-white hover:border-purple-500">
@@ -385,7 +385,7 @@ export const MinimalistHero = ({
                   {mainText}
                 </p>
                 <div className="flex flex-row items-center justify-start gap-4 pt-4">
-                  <a href="#projects" className="px-6 py-2.5 bg-black-900 hover:bg-purple-600 text-white text-base rounded-full font-medium transition-all shadow-[0_0_15px_rgba(147,51,234,0.3)] hover:shadow-[0_0_25px_rgba(147,51,234,0.5)]">
+                  <a href="#projects" className="px-6 py-2.5 bg-black-900 hover:bg-purple-600 text-white text-base rounded-full font-medium transition-all shadow-[0_0_15px_rgba(147,51,234,0.2)] hover:shadow-[0_0_25px_rgba(147,51,234,0.2)]">
                     See project
                   </a>
                   <a href="#contact" className="relative inline-flex items-center text-sm font-medium rounded-full h-12 p-1 ps-6 pe-14 group transition-all duration-500 hover:ps-14 hover:pe-6 overflow-hidden cursor-pointer bg-foreground/10 text-foreground border border-foreground/30 hover:bg-purple-600 hover:text-white hover:border-purple-500">
@@ -438,7 +438,11 @@ export const MinimalistHero = ({
                   About <span className="text-purple-400">Me</span>
                 </h2>
                 <p className="text-base md:text-lg lg:text-xl leading-relaxed text-foreground/90">
-                  A front-end web developer from Indonesia with a passion for crafting clean, functional, and modern digital experiences. I focus on turning ideas into interactive, responsive interfaces — paying close attention to detail, performance, and user experience. Always curious, always learning, and always open to new challenges, collaborations, and exciting opportunities in the world of web development.
+                  Hi, I'm Munawardy, a Front-End Developer and Informatics Engineering student. Coming from a disciplined background, 
+                  I thrive on writing clean, scalable code and turning complex problems into intuitive web interfaces. 
+                  My current toolkit revolves around React, Next.js, and Tailwind CSS. Whether I'm building a personal finance tracker or a real estate platform, 
+                  I always prioritize performance and a seamless user experience. When I'm not coding or studying, 
+                  I'm usually exploring new web technologies to level up my stack.
                 </p>
               </div>
             </motion.div>

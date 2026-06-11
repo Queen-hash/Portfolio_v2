@@ -36,11 +36,10 @@ const App = () => {
       <main> 
         
         {/* --- BLOK 1: HERO SECTION --- */}
-        <MinimalistHero
-          logoSrc="/favicon.png" 
+        <MinimalistHero 
           logoText="dy.dev"
           navLinks={navLinks}
-          mainText="Front-end developer blending engineering logic with modern design. I build fast, scalable, and pixel-perfect web applications."
+          mainText="Front-end developer blending engineering logic with modern design. I build fast, scalable, and pixel perfect web applications."
           readMoreLink="#about"
           imageSrc="/foto1.PNG"
           imageAlt="Munawardy DY"

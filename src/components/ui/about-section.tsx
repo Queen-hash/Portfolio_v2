@@ -6,13 +6,10 @@ export const AboutSection = () => {
           About <span className="text-purple-500">Me</span>
         </h2>
         <p className="text-sm sm:text-base md:text-lg lg:text-xl text-foreground/80 max-w-2xl leading-relaxed">
-          A front-end web developer from Indonesia with a
-          passion for crafting clean, functional, and modern
-          digital experiences. I focus on turning ideas into interactive,
-          responsive interfaces — paying close attention to detail,
-          performance, and user experience. Always curious, always learning,
-          and always open to new challenges, collaborations,
-          and exciting opportunities in the world of web development.
+          Hi, I'm Munawardy, a Front-End Developer and Informatics Engineering student. Coming from a disciplined background, 
+          I thrive on writing clean, scalable code and turning complex problems into intuitive web interfaces. 
+          My current toolkit revolves around React, Next.js, and Tailwind CSS. Whether I'm building a personal finance tracker or a real estate platform, 
+          I always prioritize performance and a seamless user experience. When I'm not coding or studying, I'm usually exploring new web technologies to level up my stack.
         </p>
       </div>
     </section>

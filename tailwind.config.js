@@ -10,7 +10,12 @@ export default {
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-      }
+      },
+      fontFamily: {
+        sans: ['"Space Grotesk"', 'sans-serif'], 
+        heading: ['"Outfit"', 'sans-serif'],     
+        hero: ['"Syne"', 'sans-serif'],
+      },
     },
   },
   plugins: [],

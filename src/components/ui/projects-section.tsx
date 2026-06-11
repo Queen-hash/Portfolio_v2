@@ -215,7 +215,7 @@ export const ProjectsSection = () => {
         </h2>
         <p className="mt-4 text-sm md:text-base text-foreground/70 max-w-2xl mx-auto">
          A collection of my technical explorations and projects. 
-         Each project is a unique blend of creativity, problem-solving, and technical skill, 
+         Each project is a unique blend of creativity, problem solving, and technical skill, 
          showcasing my passion for crafting innovative digital experiences. 
          Dive in to see how I turn ideas into interactive realities.
         </p>

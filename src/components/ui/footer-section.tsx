@@ -36,8 +36,8 @@ const STYLES = `
 /* Background Grid Mirip Referensi */
 .footer-bg-grid {
   background-image: 
-    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
   background-size: 60px 60px;
   mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
   -webkit-mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
@@ -47,8 +47,8 @@ const STYLES = `
 .footer-aurora {
   background: radial-gradient(
     circle at 50% 50%,
-    rgba(147, 51, 234, 0.12) 0%,
-    rgba(255, 255, 255, 0.04) 40%,
+    rgba(147, 51, 234, 0.09) 0%,
+    rgba(255, 255, 255, 0.05) 40%,
     transparent 70%
   );
 }
@@ -59,10 +59,10 @@ const STYLES = `
   line-height: 0.8;
   font-weight: 900;
   letter-spacing: -0.05em;
-  background: linear-gradient(180deg, rgba(255,255,255,0.15) 0%, transparent 70%);
+  background: linear-gradient(180deg, rgba(255,255,255,0.2) 0%, transparent 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px rgba(255,255,255,0.03);
+  -webkit-text-stroke: 1px rgba(255,255,255,0.02);
 }
 
 /* Teks Utama (Metallic Glow) */
@@ -259,7 +259,7 @@ export function FooterSection() {
         <div className="footer-aurora animate-footer-breathe absolute left-1/2 top-1/2 h-[60vh] w-[80vw] rounded-[50%] blur-[80px] pointer-events-none z-0" />
 
         {/* Latar Belakang Grid & Bayangan Gelap */}
-        <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.03)_0%,transparent_70%)] pointer-events-none" />
+        <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.02)_0%,transparent_70%)] pointer-events-none" />
         <div className="footer-bg-grid absolute inset-0 z-0 pointer-events-none" />
 
         {/* Teks Raksasa (Di Belakang) */}
